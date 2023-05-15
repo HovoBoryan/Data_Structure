@@ -83,11 +83,11 @@ class Node {
     list.append(10);
     list.append(20);
     list.append(30);
-    //list.prepend(5);
+    list.prepend(5);
 
   console.log(list.toArray()); // Output: [5, 10, 20, 30]
 
     list.delete(20);
     list.append(777);
 
-  console.log(list.toArray()); // Output: [5, 10, 30]
+  console.log(list.toArray()); // Output: [5, 10, 30, 777]
